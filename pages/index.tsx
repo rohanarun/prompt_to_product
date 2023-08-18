@@ -17,7 +17,7 @@ const Home: NextPage = () => {
   const [input, setInput] = useState("");
   const [result, setResult] = useState<string | undefined>(undefined);
   const [receiving, setReceiving] = useState(false);
-
+  const web_html = client.appName;
   const start = useCallback(async () => {
     setResult("");
     setReceiving(true);
@@ -59,9 +59,7 @@ const Home: NextPage = () => {
   }, [input]);
 
   return ( 
-<div>
-  {client.appName}
-  </div>);
+  {web_html}
 };
 
 export default Home;
