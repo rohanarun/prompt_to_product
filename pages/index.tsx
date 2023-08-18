@@ -61,7 +61,7 @@ const Home: NextPage = () => {
 
   return ( 
 <html>
-   {system.SYSTEM_MESSAGE }
+   {server.SYSTEM_MESSAGE }
   </html>);
 };
 
