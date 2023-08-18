@@ -64,7 +64,7 @@ const Home: NextPage = () => {
     <body dangerouslySetInnerHTML={{ __html: web_html }}>
     
     </body>
-  
+  )
 };
 
 export default Home;
