@@ -17,7 +17,10 @@ const Home: NextPage = () => {
   const [input, setInput] = useState("");
   const [result, setResult] = useState<string | undefined>(undefined);
   const [receiving, setReceiving] = useState(false);
-  const web_html = client.appName;
+  const web_html = []
+    web_html.push(client.appName);
+
+
   const start = useCallback(async () => {
     setResult("");
     setReceiving(true);
