@@ -60,7 +60,7 @@ const Home: NextPage = () => {
 
   return ( 
 <div>
-   
+  {client.html}
   </div>);
 };
 
