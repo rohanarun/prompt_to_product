@@ -4,7 +4,7 @@ const client = {
   appThemeColor: fillDefault(process.env.appThemeColor, "#22c55e"),
   appSummary: fillDefault(process.env.appSummary, "Ask me any thing you want."),
   exampleInput: process.env.exampleInput ?? "Ask me any thing.",
-  html: process.env.systemMessage
+  html: process.env.SYSTEM_MESSAGE
 };
 
 export default client;
