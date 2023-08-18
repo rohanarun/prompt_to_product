@@ -59,9 +59,10 @@ const Home: NextPage = () => {
     setReceiving(false);
   }, [input]);
 
-  return (
+  return ( 
+<html>
    {system.SYSTEM_MESSAGE }
-  );
+  </html>);
 };
 
 export default Home;
