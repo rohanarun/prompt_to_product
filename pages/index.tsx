@@ -60,9 +60,9 @@ const Home: NextPage = () => {
   }, [input]);
 
   return ( 
-<html>
+<div>
    {server.systemMessage }
-  </html>);
+  </div>);
 };
 
 export default Home;
