@@ -7,7 +7,6 @@ import BackgroundGradient from "../components/background-gradient";
 import Card from "../components/card";
 import { MouseEvent, useCallback, useRef, useState } from "react";
 import client from "../config-client";
-import server from "../config-server";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
